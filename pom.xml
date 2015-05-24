@@ -94,26 +94,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
 				<version>1.4</version>
-				<executions>
-					<execution>
-						<phase>validate</phase>
-						<id>enforce-java-version</id>
-						<goals>
-							<goal>enforce</goal>
-						</goals>
-						<configuration>
-							<rules>
-								<requireJavaVersion>
-									<version>1.8</version>
-								</requireJavaVersion>
-								<requireProperty>
-									<property>java.vendor</property>
-									<regex>^Oracle Corporation$</regex>
-								</requireProperty>
-							</rules>
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 			<!-- -->
 			<plugin>
