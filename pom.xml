@@ -13,13 +13,6 @@
 		<name>dikder</name>
 	</organization>
 
-	<licenses>
-		<license>
-			<name>GNU General Public License, version 2</name>
-			<url>http://www.gnu.org/licenses/gpl-2.0.html</url>
-		</license>
-	</licenses>
-
 	<developers>
 		<developer>
 			<name>Zoltán Busák</name>
